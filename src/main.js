@@ -1,36 +1,6 @@
 let shop = document.getElementById("shop");
-
-let shopItemsData = [
-  {
-    id: "item1",
-    name: "Denim Jacket",
-    price: 85,
-    des: "Classic denim jacket with a modern fit. Durable and stylish.",
-    img: "images/jacket1.png",
-  },
-  {
-    id: "item2",
-    name: "Sneakers",
-    price: 60,
-    des: "Trendy sneakers built for all-day comfort and casual outings.",
-    img: "images/sneaker2.png",
-  },
-  {
-    id: "item3",
-    name: "Formal Trousers",
-    price: 70,
-    des: "Tailored fit trousers ideal for office or formal occasions.",
-    img: "images/trouser1.png",
-  },
-  {
-    id: "item4",
-    name: "Hoodie",
-    price: 50,
-    des: "Warm and soft hoodie for cozy comfort in any weather.",
-    img: "images/hoodie1.png",
-  },
-];
 let basket = JSON.parse(localStorage.getItem("data")) || [];
+
 let generateShop = () => {
   return (shop.innerHTML = shopItemsData
     .map((x) => {

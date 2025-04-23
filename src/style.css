@@ -12,6 +12,10 @@
 i {
   cursor: pointer;
 }
+a {
+  text-decoration: none;
+  color: var(--light);
+}
 body {
   font-family: sans-serif;
 }
@@ -100,4 +104,21 @@ u .cart img {
 }
 .bi-plus-lg {
   color: green;
+}
+
+/*
+ syle rules for label and some buttons
+*/
+
+.text-center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.HomeBtn {
+  background-color: #212529;
+  color: var(--light);
+  border: none;
+  padding: 6px;
+  border-radius: 3px;
+  cursor: pointer;
 }
