@@ -9,7 +9,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+i {
+  cursor: pointer;
+}
 body {
   font-family: sans-serif;
 }
