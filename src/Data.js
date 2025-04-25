@@ -15,7 +15,7 @@ let shopItemsData = [
   },
   {
     id: "item3",
-    name: "Formal Trousers",
+    name: "Trousers",
     price: 70,
     des: "Tailored fit trousers ideal for office or formal occasions.",
     img: "images/trouser1.png",
